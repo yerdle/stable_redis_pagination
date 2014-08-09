@@ -1,0 +1,5 @@
+Thing:
+  "index_name":
+    sort_by: score
+    order: asc
+    filter: is_blue?
