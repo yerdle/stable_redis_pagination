@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'https://github.com/yerdle/stable_redis_pagination'
   gem.license       = 'MIT'
 
-  gem.files         = `git ls-files`.split($\)
+  gem.files         = Dir.glob('lib/**/*.rb')
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = 'stable_redis_pagination'
